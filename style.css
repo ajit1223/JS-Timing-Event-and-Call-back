@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper, .card{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.card{
+    width: 250px;
+    height: 260px;
+    background-color: rgb(31, 7, 7);
+    color: #ffffff;
+    border-radius: 15px;
+    justify-content: space-evenly;
+}
+
+.btnWrapper button{
+    border: none;
+    border-radius: 1px;
+    background-color: rgb(236, 236, 88);
+    color: rgba(231, 68, 68, 0.933);
+    padding: 10px;
+    font-weight:bold;
+}
+button{
+    margin: 5px;
+}
+button:hover{
+    cursor: pointer;
+}
+.timer{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
